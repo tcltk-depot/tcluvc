@@ -1,0 +1,2 @@
+# libuvc: enable users in group "plugdev" to detach the uvcvideo kernel driver
+ACTION=="add", SUBSYSTEM=="usb", ENV{ID_USB_INTERFACES}=="*:0e02??:*", GROUP="plugdev"
