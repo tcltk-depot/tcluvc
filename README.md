@@ -1,5 +1,10 @@
 tcluvc
-------
+----
+
+This is a mirror of the tcluvc module extracted from the official
+[Androwish monorepository](http://www.androwish.org). Please
+log any bug reports, RFE's there. This repository is
+unmonitored.
 
 Tcl interface to UVC cameras using `libusb`. It may run on Android devices,
 however, many devices with ARM processors seem to have problems with
